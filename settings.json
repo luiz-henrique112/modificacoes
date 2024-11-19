@@ -1,0 +1,220 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword",
+                    "punctuation.definition.template-expression",
+                    "keyword.control",
+                    "source",
+                    "punctuation.section.embedded",
+                    "keyword.operator",
+                    "constant",
+                    "constant.language",
+                    "variable.other",
+                    "entity.name.function",
+                    "constant.character.escape",
+                    "storage.type",
+                    "storage.modifier",
+                    "support.variable.property",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "foreground": "#F92672"
+                }
+            },
+            {
+                "scope": [
+                    "variable",
+                    "variable.other.readwrite",
+                    "variable.other",
+                    "constant",
+                    "constant.language",
+                    "variable.other.constant",
+                    "variable.other.readwrite.constant"
+                ],
+                "settings": {
+                    "foreground": "#66D9EF"
+                }
+            },
+            {
+                "scope": [
+                    "string",
+                    "string.quoted.double",
+                    "string.quoted.single",
+                    "punctuation.definition.string",
+                    "string punctuation.definition.string"
+                ],
+                "settings": {
+                    "foreground": "#E6DB74"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function"
+                ],
+                "settings": {
+                    "foreground": "#b2e748"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator",
+                    "punctuation"
+                ],
+                "settings": {
+                    "foreground": "#F0F0F0"
+                }
+            },
+            {
+                "scope": [
+                    "variable.parameter"
+                ],
+                "settings": {
+                    "foreground": "#fd971ac4"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.section.block.begin",
+                    "punctuation.section.block.end",
+                    "punctuation.section.parens.begin",
+                    "punctuation.section.parens.end",
+                    "punctuation.section.brackets.begin",
+                    "punctuation.section.brackets.end"
+                ],
+                "settings": {
+                    "foreground": "#AE6AD6"  // Cor desejada para parênteses, chaves e colchetes
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.section.block.begin",
+                    "punctuation.section.block.end",
+                    "punctuation.section.braces.begin",
+                    "punctuation.section.braces.end",
+                    "punctuation.section.brackets.begin",
+                    "punctuation.section.brackets.end",
+                    "punctuation.section.parens.begin",
+                    "punctuation.section.parens.end"
+                ],
+                "settings": {
+                    "foreground": "#d25818"  // Cor para o 1° conjunto de (), {} ou []
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.section.block.begin punctuation.section.block.begin",
+                    "punctuation.section.block.end punctuation.section.block.end",
+                    "punctuation.section.braces.begin punctuation.section.braces.begin",
+                    "punctuation.section.braces.end punctuation.section.braces.end",
+                    "punctuation.section.brackets.begin punctuation.section.brackets.begin",
+                    "punctuation.section.brackets.end punctuation.section.brackets.end",
+                    "punctuation.section.parens.begin punctuation.section.parens.begin",
+                    "punctuation.section.parens.end punctuation.section.parens.end"
+                ],
+                "settings": {
+                    "foreground": "#1665cb"  // Cor para o 2° conjunto de (), {} ou []
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.section.block.begin punctuation.section.block.begin punctuation.section.block.begin",
+                    "punctuation.section.block.end punctuation.section.block.end punctuation.section.block.end",
+                    "punctuation.section.braces.begin punctuation.section.braces.begin punctuation.section.braces.begin",
+                    "punctuation.section.braces.end punctuation.section.braces.end punctuation.section.braces.end",
+                    "punctuation.section.brackets.begin punctuation.section.brackets.begin punctuation.section.brackets.begin",
+                    "punctuation.section.brackets.end punctuation.section.brackets.end punctuation.section.brackets.end",
+                    "punctuation.section.parens.begin punctuation.section.parens.begin punctuation.section.parens.begin",
+                    "punctuation.section.parens.end punctuation.section.parens.end punctuation.section.parens.end"
+                ],
+                "settings": {
+                    "foreground": "#915ab4"  // Cor para o 3° conjunto de (), {} ou []
+                }
+            },
+            {
+                "scope": [
+                    "comment"
+                ],
+                "settings": {
+                    "foreground": "#787878"
+                }
+            },
+            {
+                "scope": [
+                    "string.detected-link"
+                ],
+                "settings": {
+                    "foreground": "#AE81FF"
+                }
+            },
+            {
+                "scope": [
+                    "constant.regexp",
+                    "string.regexp"
+                ],
+                "settings": {
+                    "foreground": "#E6DB74"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric",
+                    "meta.preprocessor.numeric",
+                    "keyword.other.unit",
+                    "constant.sha.git-rebase"
+                ],
+                "settings": {
+                    "foreground": "#AE81FF"
+                }
+            },
+            {
+                "scope": [
+                    "constant.language"
+                ],
+                "settings": {
+                    "foreground": "#AE81FF"
+                }
+            },
+            {
+                "scope": [
+                    "constant.character",
+                    "constant.other"
+                ],
+                "settings": {
+                    "foreground": "#AE81FF"
+                }
+            },
+            
+        ],
+        
+
+    },
+    
+    "workbench.productIconTheme": "bongocat",
+    "files.autoSave": "afterDelay",
+    "editor.codeActionsOnSave": {
+
+    },
+    "jdk.jdkhome": "c:\\Program Files\\Java\\jdk-22",
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command"
+    ],
+    "[java]": {
+        "editor.defaultFormatter": "Oracle.oracle-java"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "workbench.colorTheme": "Monokai Theme",
+    "editor.fontSize": 13.2
+}
